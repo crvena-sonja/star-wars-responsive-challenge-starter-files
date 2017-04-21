@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+nav {
+	background-color: gold;
+	position: fixed;
+	height: 75px;
+	width: 100%;
+	font-size: 20px;
+}
+
+nav h1{
+	margin-left: 100px;
+	font-size: 20px;
+}
+
+nav h2{
+	margin-left: 100px;
+	font-size: 15px;
+}
+
+main {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  text-align: left;
+  /*padding-top: 30px;*/
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  border-radius: 3px;
+
+}
+
+.card h1{
+	padding-top: 10px;
+	margin-left: 15px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.card h2{
+	margin-left: 15px;
+	font-size: 10px;
+}
+
+div img{
+	max-width: 100%
+}
+

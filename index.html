@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" content="A responsive grid page to display Star Wars trading cards">
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
@@ -15,8 +15,69 @@
 
   <!-- Stylesheets -->
 
+   <link rel="stylesheet" href="css/float-grid.css" />
+   <link rel="stylesheet" href="css/main.css" />
+
+
 </head>
 <body>
+
+	<nav>
+		<div class="col-12">
+			<h1>Star Wars Characters</h1>
+			<h2>Incomplete List</h2>
+		</div>
+	</nav>
+
+	<main>
+		<div class="row">
+			<div class="col-4">
+				<div class="card">
+					<img src="images/rey_square.png">
+					<h1>Rey</h1>
+					<h2>Protagonist, from Tatooine</h2>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/yoda_square.png">
+					<h1>Yoda</h1>
+					<h2>Wise old Jeci master</h2>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/chewbacca_square.png">
+					<h1>Chewbacca</h1>
+					<h2>Greatest first mate of all time</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<div class="card">
+					<img src="images/kylo_square.png">
+					<h1>Kylo</h1>
+					<h2>Main villain, or is he?</h2>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/finn_square.png">
+					<h1>Finn</h1>
+					<h2>Storm trooper, befriends Rey</h2>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="card">
+					<img src="images/poe_square.png">
+					<h1>Poe</h1>
+					<h2>Neutral Pilot</h2>
+				</div>
+			</div>
+		</div>
+	</main>
 
 </body>
 </html>

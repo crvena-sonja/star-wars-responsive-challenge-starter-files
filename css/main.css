@@ -1,61 +1,62 @@
+
 body {
-  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  margin-left: 0;
-  margin-top: 0;
+  margin: 0;
+}
+
+div {
+	display: block;
 }
 
 nav {
-	background-color: gold;
 	position: fixed;
 	height: 75px;
 	width: 100%;
 	font-size: 20px;
 }
 
-nav h1{
-	margin-left: 100px;
-	font-size: 20px;
+nav div{
+	background-color: #eebb44;
 }
 
-nav h2{
-	margin-left: 100px;
-	font-size: 15px;
+nav h1{
+	
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+nav p{
+	margin-top: 8px;
+}
+
+h1 {
+	font-size: 32px;
 }
 
 main {
-  padding-top: 100px;
+	display: block;
+  	padding-top: 150px;
 }
+
 
 main .row {
   margin-bottom: 20px;
 }
 
 .card {
-  height: 400px;
-  width: 300px;
-  text-align: left;
-  /*padding-top: 30px;*/
-  padding-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 20px; 
   border: 1px solid grey;
   border-radius: 3px;
 
 }
 
-.card h1{
-	padding-top: 10px;
+.card-content{
+	padding: 20px;
 	margin-left: 15px;
-	font-size: 15px;
-	font-weight: bold;
 }
 
-.card h2{
-	margin-left: 15px;
-	font-size: 10px;
-}
 
-div img{
-	max-width: 100%
+.card-image{
+	width: 100%;
 }
 
